@@ -1,0 +1,73 @@
+{
+  "name": "@sajjadbzn/vellum",
+  "version": "0.1.1",
+  "description": "A professional terminal animation engine — composable, delta-time-based, zero-flicker",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./easing": {
+      "types": "./dist/easing/index.d.ts",
+      "import": "./dist/easing/index.js"
+    },
+    "./color": {
+      "types": "./dist/color/index.d.ts",
+      "import": "./dist/color/index.js"
+    },
+    "./effects": {
+      "types": "./dist/effects/index.d.ts",
+      "import": "./dist/effects/index.js"
+    },
+    "./scene": {
+      "types": "./dist/scene/index.d.ts",
+      "import": "./dist/scene/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "bun run build && bun test",
+    "release": "npm publish --access public"
+  },
+  "keywords": [
+    "terminal",
+    "animation",
+    "cli",
+    "tui",
+    "ansi",
+    "motion",
+    "effects",
+    "spinner",
+    "progress",
+    "typewriter",
+    "ascii",
+    "cell-rendering",
+    "diff-renderer",
+    "framer-motion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajjadbzn/vellum"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjadbzn/vellum/issues"
+  },
+  "homepage": "https://github.com/sajjadbzn/vellum#readme",
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.0"
+  }
+}
