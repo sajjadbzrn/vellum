@@ -1,6 +1,6 @@
 {
   "name": "@sajjadbzn/vellum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A professional terminal animation engine — composable, delta-time-based, zero-flicker",
   "type": "module",
   "main": "./dist/index.js",
@@ -60,12 +60,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sajjadbzn/vellum"
+    "url": "https://github.com/sajjadbzrn/vellum"
   },
   "bugs": {
-    "url": "https://github.com/sajjadbzn/vellum/issues"
+    "url": "https://github.com/sajjadbzrn/vellum/issues"
   },
-  "homepage": "https://github.com/sajjadbzn/vellum#readme",
+  "homepage": "https://github.com/sajjadbzrn/vellum#readme",
   "engines": {
     "node": ">=18",
     "bun": ">=1.0"
